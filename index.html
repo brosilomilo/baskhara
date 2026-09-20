@@ -169,15 +169,14 @@
     <!-- CONTACT SECTION START -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="#">
+        <form action="https://api.web3forms.com/submit" method"POST">
             <div class="input-inbox">
-                <input type="text" placeholder="Your full name">
-                <input type="number" placeholder="Phone number">
-                <input type="email" placeholder="Email">
-                <input type="text" placeholder="Subject">
+                <input type="hidden" name="access_key" value="664ddd16-7f5d-4560-9810-f36dfad1b9b0">
+                <input type="text" name="name" required placeholder="Your full name">
+                <input type="email" name="email" required placeholder="Your email">
             </div>
 
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <textarea name="message" required id="" cols="30" rows="10" placeholder="Your message"></textarea>
             <input type="submit" value="Get in touch" class="btn">
 
         </form>
