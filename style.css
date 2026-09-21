@@ -14,6 +14,7 @@
     --second-bg-color: #cda48a;
     --text-color: #black;
     --main-color: #8f112f;
+    --add-color: #322c2c;
 }
 
 html {
@@ -364,7 +365,8 @@ section {
 .timeline-section {
     min-height: 100vh;
     padding: 100px 15px;
-    background-color: var(--bg-color);
+    background-color: var(--add-color);
+    background: linear-gradient(to top, rgb(212, 168, 142), rgba(121, 16, 16, 0.201));
 }
 
 .timeline-section h2 {
@@ -522,7 +524,7 @@ section {
 }
 
 .contact {
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
 }
 
 .contact h2 {
